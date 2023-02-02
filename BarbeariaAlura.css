@@ -6,9 +6,13 @@ body {
     font-style: italic;
 }
 
+nav {
+    position: relative;
+}
+
 #banner {
     width: 100%;
-    border-radius: 10%;
+    border-radius: 20px;
 }
 
 .principal {
