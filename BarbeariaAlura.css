@@ -3,11 +3,9 @@ body {
     color: black;
 }
 
-@media screen and (min-width:280px) {
+@media screen and (max-width:280px) {
     .imagembeneficios {
         height: 50%;
-        /* position: relative; */
-        margin-top: 10%;
     }
     .principal {
         font-size: 10px;
@@ -18,14 +16,18 @@ body {
     }
 }
 
+.menu {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
 li img {
-    position: relative;
-    left: auto;
-    right: auto;
+    left: 2em;
 }
 
 .beneficios li:hover {
     color: #ff0000;
+    transition: 1s;
 }
 
 .itens {
@@ -40,7 +42,6 @@ nav {
 
 #banner {
     width: 100%;
-    /* border-radius: 20px; */
 }
 
 .titulo-principal {
