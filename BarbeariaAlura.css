@@ -16,13 +16,34 @@ body {
     }
 }
 
+header {
+    background: #DDDDDD;
+}
+
 .menu {
     display: inline;
     margin: 0 0 0 15px;
 }
 
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+li a {
+    display: inline-block;
+}
+
 li img {
     left: 2em;
+}
+
+.icons {
+    display: inline;
+    width: 30px;
+    padding-top: 5%;
+    padding-right: 3%;
 }
 
 .beneficios li:hover {
@@ -32,12 +53,35 @@ li img {
 
 .itens {
     font-style: italic;
-    padding-top: 5%;
+    padding-top: 3%;
     font-size: 25px;
 }
 
 nav {
-    position: relative;
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: flex;
+    margin: 0 0 0 15px;
+    justify-content: flex-end;
+    padding: 15%;
+    margin-left: 1em;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: red;
+    text-decoration: underline;
 }
 
 #banner {
@@ -99,7 +143,7 @@ ul {
 
 .imagembeneficios {
     width: 25%;
-    border-radius: 50%;
+    border-radius: 10%;
     position: relative;
     left: 40%;
 }
