@@ -17,7 +17,8 @@ body {
 }
 
 header {
-    background: #DDDDDD;
+    background: #bbbbbb;
+    padding: 20px 0 0;
 }
 
 .menu {
@@ -46,9 +47,10 @@ li img {
     padding-right: 3%;
 }
 
-.beneficios li:hover {
+.itens:hover {
     color: #ff0000;
-    transition: 1s;
+    transition: 1s all;
+    text-transform: uppercase;
 }
 
 .itens {
@@ -90,6 +92,10 @@ nav a:hover {
 
 .titulo-principal {
     font-size: 35px;
+    text-align: center;
+    border: 2px solid black;
+    margin: 1em 0 0 0;
+    background-color: aliceblue;
 }
 
 .container {
@@ -99,13 +105,13 @@ nav a:hover {
     text-align: center;
     border: 2px solid rgba(96, 31, 31, 0.987);
     border-radius: 15px;
-    padding: 10px 10px 20px;
+    padding: 20px 10px 20px;
     width: 100%;
 }
 
 .principal {
     font-size: 25px;
-    padding: 50px 25px 50px;
+    padding: 25px 25px 5px;
     border-radius: 10px;
 }
 
@@ -121,7 +127,7 @@ p {
 }
 
 .missao {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 
@@ -133,6 +139,7 @@ em strong {
 
 .beneficios {
     padding: 50px 50px 50px;
+    margin: 2em;
 }
 
 ul {
